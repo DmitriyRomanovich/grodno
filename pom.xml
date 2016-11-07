@@ -2,14 +2,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.epam.training.library2016</groupId>
+	<groupId>com.epam.training.library</groupId>
 	<artifactId>parent-project</artifactId>
 	<version>1.0.0</version>
 
 	<packaging>pom</packaging>
 
 	<properties>
-		<customVar>com.epam.training.library2016</customVar>
+		<customVar>com.epam.training.library</customVar>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<common.project.version>1.0</common.project.version>
 		<spring.version>4.0.3.RELEASE</spring.version>
@@ -28,38 +28,38 @@
 		<dependencies>
 			<!-- Project modules -->
 			<dependency>
-				<groupId>com.epam.training.library2016</groupId>
+				<groupId>com.epam.training.library</groupId>
 				<artifactId>datamodel</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
-				<groupId>com.epam.training.library2016</groupId>
+				<groupId>com.epam.training.library</groupId>
 				<artifactId>dao-api</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
-				<groupId>com.epam.training.library2016</groupId>
+				<groupId>com.epam.training.library</groupId>
 				<artifactId>dao-impl-db</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
-				<groupId>com.epam.training.library2016</groupId>
+				<groupId>com.epam.training.library</groupId>
 				<artifactId>dao-impl-xml</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 
 			<dependency>
-				<groupId>com.epam.training.library2016</groupId>
+				<groupId>com.epam.training.library</groupId>
 				<artifactId>services</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
-				<groupId>com.epam.training.library2016</groupId>
+				<groupId>com.epam.training.library</groupId>
 				<artifactId>webapp</artifactId>
 				<version>1.0.0</version>
 			</dependency>
