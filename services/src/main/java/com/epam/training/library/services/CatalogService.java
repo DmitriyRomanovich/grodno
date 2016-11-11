@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.epam.training.library.datamodel.Catalog;
 
 public interface CatalogService {
+	
 	@Transactional
 	 void saveAll(ArrayList<Catalog> accounts);
 
@@ -14,5 +15,5 @@ public interface CatalogService {
 
 	    ArrayList<Catalog> getAll();
 
-		Catalog getAccounts(Long id);
+		Catalog getCatalog(Long id);
 }

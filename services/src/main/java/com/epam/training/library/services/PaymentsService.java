@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.epam.training.library.datamodel.Payments;
 
 public interface PaymentsService {
+	
 	@Transactional
 	 void saveAll(ArrayList<Payments> accounts);
 
@@ -14,5 +15,5 @@ public interface PaymentsService {
 
 	    ArrayList<Payments> getAll();
 
-		Payments getAccounts(Long id);
+		Payments getPayment(Long id);
 }
