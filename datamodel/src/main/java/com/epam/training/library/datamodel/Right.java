@@ -3,6 +3,7 @@ package com.epam.training.library.datamodel;
 public class Right {
 	private Integer rightId;
 	private String rightName;
+	
 	public Integer getRightId() {
 		return rightId;
 	}

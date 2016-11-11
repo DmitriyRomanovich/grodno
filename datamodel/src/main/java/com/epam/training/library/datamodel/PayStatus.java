@@ -3,6 +3,7 @@ package com.epam.training.library.datamodel;
 public class PayStatus {
 	private Integer paymentStatusCode;
 	private Boolean paymentStatus;
+	
 	public Integer getPaymentStatusCode() {
 		return paymentStatusCode;
 	}

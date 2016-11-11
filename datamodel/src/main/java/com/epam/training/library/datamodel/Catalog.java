@@ -4,7 +4,7 @@ public class Catalog {
 	private Integer productId;
 	private String productName;
 	private Float productPrice; 
-	private String categoriesId;
+	private Integer categoriesId;
 	private Integer yearsId;
 	public Integer getProductId() {
 		return productId;
@@ -24,16 +24,17 @@ public class Catalog {
 	public void setProductPrice(Float productPrice) {
 		this.productPrice = productPrice;
 	}
-	public String getCategoriesId() {
-		return categoriesId;
-	}
-	public void setCategoriesId(String categoriesId) {
-		this.categoriesId = categoriesId;
-	}
+	
 	public Integer getYearsId() {
 		return yearsId;
 	}
 	public void setYearsId(Integer yearsId) {
 		this.yearsId = yearsId;
+	}
+	public Integer getCategoriesId() {
+		return categoriesId;
+	}
+	public void setCategoriesId(Integer categoriesId) {
+		this.categoriesId = categoriesId;
 	}
 }

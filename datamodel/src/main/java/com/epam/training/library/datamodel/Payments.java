@@ -1,7 +1,7 @@
 package com.epam.training.library.datamodel;
 
 public class Payments {
-	private Integer paymentsId;
+	private Integer paymentId;
 	private Integer accountId;
 	private Integer productId;
 	private Integer paymentMetodCode;
@@ -9,11 +9,12 @@ public class Payments {
 	private Long dateOfPayment;
 	private Integer amountOfPayment;
 	private String paymentDetails;
+	
 	public Integer getPaymentsId() {
-		return paymentsId;
+		return paymentId;
 	}
-	public void setPaymentsId(Integer paymentsId) {
-		this.paymentsId = paymentsId;
+	public void setPaymentId(Integer paymentsId) {
+		this.paymentId = paymentsId;
 	}
 	public Integer getAccountId() {
 		return accountId;

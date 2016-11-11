@@ -3,6 +3,7 @@ package com.epam.training.library.datamodel;
 public class Categories {
 	private Integer categoriesId;
 	private String categoriesName;
+	
 	public Integer getCategoriesId() {
 		return categoriesId;
 	}

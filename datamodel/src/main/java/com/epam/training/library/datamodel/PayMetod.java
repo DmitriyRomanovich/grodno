@@ -3,6 +3,7 @@ package com.epam.training.library.datamodel;
 public class PayMetod {
 	private Integer paymentMetodCode;
 	private String paymentMetodName;
+	
 	public Integer getPaymentMetodCode() {
 		return paymentMetodCode;
 	}

@@ -3,9 +3,10 @@ package com.epam.training.library.datamodel;
 public class Subscription {
 	private Integer subscriptionId;
 	private Integer accountId;
-	private Long date;
+	private Long dateSubscriptionPlaced;
 	private String subscriptionDetails;
-	private Integer dateSubscriptionOff;
+	private Integer paymentId;
+	private Long dateSubscriptionOff;
 	
 	public Integer getSubscriptionId() {
 		return subscriptionId;
@@ -26,16 +27,23 @@ public class Subscription {
 	public void setSubscriptionDetails(String subscriptionDetails) {
 		this.subscriptionDetails = subscriptionDetails;
 	}
-	public Integer getDateSubscriptionOff() {
+	public Long getDateSubscriptionOff() {
 		return dateSubscriptionOff;
 	}
-	public void setDateSubscriptionOff(Integer dateSubscriptionOff) {
+	public void setDateSubscriptionOff(Long dateSubscriptionOff) {
 		this.dateSubscriptionOff = dateSubscriptionOff;
 	}
-	public Long getDate() {
-		return date;
+	
+	public Long getDateSubscriptionPlaced() {
+		return dateSubscriptionPlaced;
 	}
-	public void setDate(Long date) {
-		this.date = date;
+	public void setDateSubscriptionPlaced(Long dateSubscriptionPlaced) {
+		this.dateSubscriptionPlaced = dateSubscriptionPlaced;
+	}
+	public Integer getPaymentId() {
+		return paymentId;
+	}
+	public void setPaymentId(Integer paymentId) {
+		this.paymentId = paymentId;
 	}
 }

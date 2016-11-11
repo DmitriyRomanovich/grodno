@@ -11,8 +11,8 @@ public class Accounts {
 	public Integer getAccountId() {
 		return accountId;
 	}
-	public void setAccountId(Integer accountId) {
-		this.accountId = accountId;
+	public void setAccountId(Integer accountsName) {
+		this.accountId = accountsName;
 	}
 	public Integer getCustomerId() {
 		return customerId;

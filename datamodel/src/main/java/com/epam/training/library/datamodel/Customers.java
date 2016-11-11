@@ -1,15 +1,15 @@
 package com.epam.training.library.datamodel;
 
 public class Customers {
-	private Integer customersId;
+	private Integer customerId;
 	private String customerName;
 	private String customerPass;
 	private Integer rightId;
-	public Integer getCustomersId() {
-		return customersId;
+	public Integer getCustomerId() {
+		return customerId;
 	}
-	public void setCustomersId(Integer customersId) {
-		this.customersId = customersId;
+	public void setCustomerId(Integer customersId) {
+		this.customerId = customersId;
 	}
 	public String getCustomerName() {
 		return customerName;
